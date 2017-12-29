@@ -1,13 +1,10 @@
 body {
 	margin: 0px;
 }
-#main-heading {
-	font-family: fantasy;
-	font-size: 40px;
-}
 .heading-items {
 	list-style-type: none;
-	position: relative;
+	margin: auto;
+	width: 60%;
 }
 .heading-items li {
 	display: inline-block;
@@ -15,6 +12,27 @@ body {
 	color: white;
 	padding: 0px 10px;
 	font-size: 24px;
+	margin: auto;
+}
+.heading-items li a {
+	text-decoration: none;
+	color: white;
+	padding: 4px
+}
+.heading-items li a:hover {
+	background-color: #B7BBB1;
+}
+.heading-items h1 {
+	font-family: fantasy;
+	font-size: 30px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 0px 10px;
+	position: relative;
+	right: 100px;
+
 }
 #heading {
 	padding: 5px 0px;
