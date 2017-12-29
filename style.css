@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+	z-index: 1;
 }
 .heading-items {
 	list-style-type: none;
@@ -23,7 +24,7 @@ body {
 	background-color: #B7BBB1;
 }
 .heading-items h1 {
-	font-family: fantasy;
+	font-family: cursive;
 	font-size: 30px;
 	display: inline-block;
 	background-color: black;
@@ -37,4 +38,51 @@ body {
 #heading {
 	padding: 5px 0px;
 	background-color: black;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+#image-content {
+	background-image: url("C:/Users/Rohithsurya/Daksh/background.jpg");
+	height: 800px;
+	background-attachment: fixed;
+}
+#image-text {
+
+}
+#image-text h1 {
+	margin: 0px;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 70px;
+	font-weight: bold;
+}
+#image-text h2 {
+	margin: 0px;
+	text-align: center;
+	font-style: italic;
+	font-size: 35px;
+}
+#image-text {
+	position: relative;
+	top: 350px;
+}
+#heading-about-div {
+	margin:  0px auto;
+	width: 50%;
+	height: 350px;
+	font-size: 1.4em;
+}
+#about-background {
+	background-color: #f2f2f2;
+	padding-top: 12px;
+}
+.heading-about-inner {
+	text-align: center;
+}
+#heading-about {
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 6px;
+	font-family: "Pacifico";
 }
