@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+}
+#main-heading {
+	font-family: fantasy;
+	font-size: 40px;
+}
+.heading-items {
+	list-style-type: none;
+	position: relative;
+}
+.heading-items li {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding: 0px 10px;
+	font-size: 24px;
+}
+#heading {
+	padding: 5px 0px;
+	background-color: black;
+}
