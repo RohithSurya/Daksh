@@ -72,10 +72,12 @@ body {
 	width: 50%;
 	height: 350px;
 	font-size: 1.4em;
+	padding-bottom: 6px;
 }
 #about-background {
 	background-color: #f2f2f2;
 	padding-top: 12px;
+	margin-bottom: 0px;
 }
 .heading-about-inner {
 	text-align: center;
@@ -85,4 +87,40 @@ body {
 	margin-top: 0px;
 	margin-bottom: 6px;
 	font-family: "Pacifico";
+}
+#events {
+	/*margin: auto;
+	width: 50%;*/
+}
+.events-coding {
+	border: 1px solid rgb(0,0,0);
+	height: 200px;
+	padding: 10px;
+	margin: 30px auto;
+	width: 450px;
+	border-radius: 10px;
+}
+
+.events-coding h2 {
+	text-align: center;
+	margin: 15px;
+	padding: 10px;
+	color: black;
+}
+.events-coding p {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+#heading-events {
+	text-align: center;
+}
+#enclose-events {
+	margin: auto;
+	width: 900px;
+}
+a {
+	text-decoration-color: none;
+	text-decoration: none;
 }
