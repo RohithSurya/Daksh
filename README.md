@@ -1,2 +1,2 @@
-# Daksh
-Create a page for Daksh i.e. a competition using html and css
+# Baksh
+Create a page for Baksh i.e. a competition using html and css
